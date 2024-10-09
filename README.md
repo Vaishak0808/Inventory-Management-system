@@ -34,7 +34,6 @@ This repository is an Inventory Management System built using Django and Django 
    The application connects to Redis using the host and port specified in the Django settings.py file:
    ```
    pip install django-redis
-
    ```
    
    ```
