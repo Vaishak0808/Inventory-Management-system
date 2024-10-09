@@ -110,7 +110,7 @@ Create a new item.
   "txt_description": "Item description"
 }
 ```
-#### GET /inventory/items/
+### GET /inventory/items/
 Get item list.
 
 #### Request Body:
@@ -118,7 +118,7 @@ Get item list.
 {}
 ```
 
-#### PUT /inventory/items/1/
+### PUT /inventory/items/1/
 
 #### Request Body:
 ```json
@@ -127,7 +127,7 @@ Get item list.
   "txt_description": "Item description"
 }
 ```
-#### delete /inventory/items/1/
+### delete /inventory/items/1/
 
 #### Request Body:
 ```json
