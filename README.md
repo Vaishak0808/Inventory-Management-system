@@ -33,6 +33,11 @@ This repository is an Inventory Management System built using Django and Django 
 
    The application connects to Redis using the host and port specified in the Django settings.py file:
    ```
+   pip install django-redis
+
+   ```
+   
+   ```
    CACHES = {
     'default': {
         'BACKEND': 'django_redis.cache.RedisCache',
@@ -44,8 +49,11 @@ This repository is an Inventory Management System built using Django and Django 
    }
 
    ```
+   ```
+    system.ctl start redis.service
+   ```
    
-5. Setup database
+6. Setup database
    
    First, create the PostgreSQL database manually using the command line.
 
@@ -79,11 +87,7 @@ This repository is an Inventory Management System built using Django and Django 
    ```
    python manage.py runserver
    ```
-   
-10. Start Redis
-   ```
-    redis-server
-   ```
+
 
 
 ## Endpoints
