@@ -78,6 +78,8 @@ This repository is an Inventory Management System built using Django and Django 
    ```
     redis-server
    ```
+
+
 ## Endpoints
 
 ### POST /inventory/items/
@@ -89,4 +91,10 @@ Create a new item.
   "vchr_name": "Item Name",
   "txt_description": "Item description"
 }
+```
+Logging
+The project uses a custom logger for error tracking. All errors are logged with user details and the specific line number where the error occurred.
+
+Caching
+Redis caching is implemented for item listing to reduce database load. Cached data expires every 5 minutes, and the cache is invalidated when an item is created, updated, or deleted.
 
