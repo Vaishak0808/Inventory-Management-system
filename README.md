@@ -110,6 +110,30 @@ Create a new item.
   "txt_description": "Item description"
 }
 ```
+#### GET /inventory/items/
+Get item list.
+
+#### Request Body:
+```json
+{}
+```
+
+#### PUT /inventory/items/1/
+
+#### Request Body:
+```json
+{
+  "vchr_name": "Item Name",
+  "txt_description": "Item description"
+}
+```
+#### delete /inventory/items/1/
+
+#### Request Body:
+```json
+{}
+```
+
 Logging
 The project uses a custom logger for error tracking. All errors are logged with user details and the specific line number where the error occurred.
 
