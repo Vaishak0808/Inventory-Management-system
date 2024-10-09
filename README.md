@@ -134,9 +134,9 @@ Get item list.
 {}
 ```
 
-Logging
+### Logging
 The project uses a custom logger for error tracking. All errors are logged with user details and the specific line number where the error occurred.
 
-Caching
+### Caching
 Redis caching is implemented for item listing to reduce database load. Cached data expires every 5 minutes, and the cache is invalidated when an item is created, updated, or deleted.
 
