@@ -91,6 +91,15 @@ This repository is an Inventory Management System built using Django and Django 
 
 ## Endpoints
 
+### POST /userlogin/login/
+Login API
+
+#### Request Body:
+
+```
+{"username":"ADMIN","password":"Testpass@123"}
+```
+
 ### POST /inventory/items/
 Create a new item.
 
