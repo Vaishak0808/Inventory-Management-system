@@ -49,7 +49,7 @@ This repository is an Inventory Management System built using Django and Django 
 
    ```
    ```
-    system.ctl start redis.service
+    systemctl start redis.service
    ```
    
 6. Setup database
