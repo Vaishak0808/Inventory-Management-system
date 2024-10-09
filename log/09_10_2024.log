@@ -1,0 +1,6 @@
+2024-10-09 03:21:55,264 - /home/vaishak/Documents/inventory_management/item/views.py - 66 - views - delete - ERROR - 'item' object has no attribute 'update' - user_id:None - line no: 60
+2024-10-09 03:21:55,264 - /home/vaishak/Documents/inventory_management/item/views.py - 66 - views - delete - ERROR - 'item' object has no attribute 'update' - user_id:None - line no: 60
+2024-10-09 03:36:22,712 - /home/vaishak/Documents/inventory_management/item/views.py - 29 - views - post - ERROR - Missing parameters - user_id:None - line no: 26
+2024-10-09 03:36:22,712 - /home/vaishak/Documents/inventory_management/item/views.py - 29 - views - post - ERROR - Missing parameters - user_id:None - line no: 26
+2024-10-09 03:38:45,668 - /home/vaishak/Documents/inventory_management/item/views.py - 29 - views - post - ERROR - Missing parameters - user_id:None - line no: 26
+2024-10-09 03:38:45,668 - /home/vaishak/Documents/inventory_management/item/views.py - 29 - views - post - ERROR - Missing parameters - user_id:None - line no: 26

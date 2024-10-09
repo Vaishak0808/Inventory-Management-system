@@ -1,0 +1,8 @@
+2024-10-08 16:01:20,872 - /home/vaishak/Documents/inventory_management/user_login/views.py - 30 - views - post - ERROR - User does not exist - user_id:None - line no: 28
+2024-10-08 16:01:20,872 - /home/vaishak/Documents/inventory_management/user_login/views.py - 30 - views - post - ERROR - User does not exist - user_id:None - line no: 28
+2024-10-08 16:02:49,119 - /home/vaishak/Documents/inventory_management/user_login/views.py - 21 - views - post - ERROR - User does not exist - user_id:None - line no: 21
+2024-10-08 16:02:49,119 - /home/vaishak/Documents/inventory_management/user_login/views.py - 21 - views - post - ERROR - User does not exist - user_id:None - line no: 21
+2024-10-08 16:21:51,473 - /home/vaishak/Documents/inventory_management/item/views.py - 35 - views - get - ERROR - type object 'item' has no attribute 'object' - user_id:3 - line no: 30
+2024-10-08 16:21:51,473 - /home/vaishak/Documents/inventory_management/item/views.py - 35 - views - get - ERROR - type object 'item' has no attribute 'object' - user_id:3 - line no: 30
+2024-10-08 16:40:44,589 - /home/vaishak/Documents/inventory_management/item/views.py - 53 - views - put - ERROR - Item name already exist. - user_id:3 - line no: 44
+2024-10-08 16:40:44,589 - /home/vaishak/Documents/inventory_management/item/views.py - 53 - views - put - ERROR - Item name already exist. - user_id:3 - line no: 44
