@@ -15,7 +15,7 @@ This repository is an Inventory Management System built using Django and Django 
 
 ## Endpoints
 
-### POST /item-master/
+### POST /inventory/items/
 Create a new item.
 
 #### Request Body:
